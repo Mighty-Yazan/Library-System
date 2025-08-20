@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Library_System
+{
+    internal interface IBorrowable
+    {
+        public void BorrowBook(Book book);
+        public void ReturnBook(Book book);
+    }
+}
